@@ -7,7 +7,7 @@
 
 /*
   Prime Number: a number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).
-  This program, will check if the user imput is a prime number or not.
+  This program, will check if the user input is a prime number or not.
 */
 
 // Declare functions prototype
