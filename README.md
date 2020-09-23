@@ -38,15 +38,38 @@ Number: 3
 Prime Number: a number that is divisible only by itself and 1 (e.g. 2, 3, 5, 7, 11).</p>
 <p>This program, prints the prime numbers that exists from x to y inclusive, x being the user input and y the command_line argument</p>
 <p>By default it will check the next 10 numbers, but you can change it.</p>
+<h3 id="compile-1">Compile</h3>
+<p>To compile make sure you have installed a C compiler on your device, then execute:</p>
+<p><strong>make next_prime</strong> or <strong>gcc next_prime.c</strong><br>
+i.e</p>
+<pre><code>$ make next_prime
+</code></pre>
+<p>or</p>
+<pre><code>$ gcc next_prime.c
+</code></pre>
+<h3 id="usage-1">Usage:</h3>
+<p>To use the prime program, type use <strong>./next_prime</strong></p>
 <p>i.e</p>
+<pre><code>$ ./next_prime
+</code></pre>
+<h3 id="example-1">Example</h3>
 <pre><code>$./next_prime
+from: 
+</code></pre>
+<p>The program starts asking the user for an input, in this case, it is the number you want to start checking if its prime from, up to the next 10 successively by default.</p>
+<p>i.e</p>
+<pre><code>$ ./next_prime
 from: 4
-5 - 7 - 11 - 13
+To: 10
+Primes: 5 - 7 - 11 - 13
 </code></pre>
 <p>Because, within the next 10 numbers from the start 4, the prime numbers are only 5, 7, 11 and 13.</p>
 <p>i.e 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14. The primes are 5, 7, 11 and 13.</p>
-<p>To change the numbers you need start the program with <strong>./next_prime value</strong></p>
-<p>where the value is the quantity of numbers you wanna check to find the prime numbers.</p>
+<p>To change the numbers you need start the program with<br>
+<strong>./next_prime value</strong></p>
+<pre><code>$./next_prime value
+</code></pre>
+<p>where the value is the quantity of numbers you want to check to find the prime numbers.</p>
 <p>To see a larger list you can user the the new size of the list when starting the program</p>
 <p>i.e</p>
 <pre><code>$./next_prime 100
